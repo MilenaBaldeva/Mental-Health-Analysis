@@ -3,6 +3,13 @@
 ## 📖 Table of Contents
 - [📌 Introduction](#-introduction)
 - [📂 Dataset Overview](#-dataset-overview)
+- [📊 Dashboard Overview](#-dashboard-overview)
+- [🏆 Key Insights](#-key-insights)
+- [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
+- [🛠️ SQL Queries & Data Processing](#-sql-queries---data-preprocessing)
+- [⚙️ Technical Details](#-technical-details)
+- [✍️ Author](#-author)
+- 
 - [📌 Introduction](#-introduction)
 - [📂 Dataset Overview](#-dataset-overview)
 - [📊 Dashboard Overview](#-dashboard-overview)
