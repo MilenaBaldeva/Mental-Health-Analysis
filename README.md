@@ -6,7 +6,7 @@
 - [📊 Dashboard Overview](#-dashboard-overview)
 - [🏆 Key Insights](#-key-insights)
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
-- [## 🛠️ SQL Queries & Data Processing](#-sql-queries-data-preprocessing)
+- [🛠️ SQL Queries & Data Processing](#-sql-queries--data-processing)
 - [⚙️ Technical Details](#-technical-details)
 - [✍️ Author](#-author)
 
