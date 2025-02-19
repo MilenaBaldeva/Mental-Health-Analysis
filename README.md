@@ -11,7 +11,7 @@
 - [⚙Technical Details](#-technical-details)
 - [✍️ Author](#-author)
 - [🛠️ SQL Queries & Data Processing](#-sql-queries--data-processing)
-- [⚙️⚙ Technical Details](#-technical-details)
+- [⚙️ Technical Details](#-technical-details)
 - [✍️ Author](#-author)
 
 
