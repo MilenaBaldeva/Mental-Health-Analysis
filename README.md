@@ -1,15 +1,14 @@
 # 📊 Mental Health & Social Media Dashboard (2018-2024)
 
 ## 📖 Table of Contents
-- [📌 Introduction](#📌introduction)
-- [Dataset Overview](#dataset-overview)
-- [Dashboard Overview](#dashboard-overview)
-- [Key Insights](#key-insights)
-- [How to Use the Dashboard](#how-to-use-the-dashboard)
-- [SQL Queries & Data Processing](#sql-queries--data-processing)
-- [Future Improvements](#future-improvements)
-- [Technical Details](#technical-details)
-- [Author](#author)
+- [📌 Introduction](#-introduction)
+- [📂 Dataset Overview](#-dataset-overview)
+- [📊 Dashboard Overview](#-dashboard-overview)
+- [🏆 Key Insights](#-key-insights)
+- [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
+- [🛠️ SQL Queries & Data Processing](#-sql-queries--data-processing)
+- [⚙️ Technical Details](#-technical-details)
+- [✍️ Author](#-author)
 
 ---
 
@@ -77,12 +76,12 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 
 ## 🎯 How to Use the Dashboard
 1. **Select Filters:**  
-   - Choose a **year, sentiment, platform, or region** to refine analysis.
+   - Choose a **year, platform, or region** to refine analysis.
    - Click the **Show Filters** button to enable filtering.
 
 2. **Interact with Charts:**  
    - Hover for detailed **tooltips**.
-   - Click bars or map regions to **drill down** into specifics.
+   - Click bars, lines or map regions to **drill down** into specifics.
 
 3. **Show Additional Data:**  
    - Click **Show Map** to view engagement **by region**.
@@ -105,14 +104,6 @@ To view the complete SQL queries used, refer to the file:
 
 ---
 
-## 🚀 Future Improvements
-- 🔹 **Real-Time Data Updates:** Integrate API for continuous insights.  
-- 🔹 **Deeper NLP Analysis:** Use **AI models** to detect mental health concerns.  
-- 🔹 **User Engagement Trends:** Track how **specific hashtags impact engagement over time**.  
-- 🔹 **Compare Platforms:** Measure **platform effectiveness** in spreading awareness.  
-
----
-
 ## ⚙️ Technical Details
 - **Data Source:** Google BigQuery  
 - **Visualization Tool:** Tableau  
@@ -124,7 +115,8 @@ To view the complete SQL queries used, refer to the file:
 ## ✍️ Author
 **Milena Baldeva**  
 📍 Easton, PA, USA  
-🔗 [LinkedIn](https://www.linkedin.com/in/milena-baldeva-051b01100/) | 📧 [Email](milena.baldeva@gmail.com)  
+📧 [milena.baldeva@gmail.com](mailto:milena.baldeva@gmail.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/milena-baldeva-051b01100/)  
 
 ---
 
