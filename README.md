@@ -1,18 +1,18 @@
 # 📊 Mental Health & Social Media Dashboard (2018-2024)
 
 ## 📖 Table of Contents
-- [📌 Introduction](#-introduction)
-- [📂 Dataset Overview](#-dataset-overview)
-- [📊 Dashboard Overview](#-dashboard-overview)
-- [🏆 Key Insights](#-key-insights)
-- [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
-- [SQL Queries and Data Processing](#sql-queries-an-data-processing)
+- [Introduction](#introduction)
+- [Dataset Overview](#dataset-overview)
+- [Dashboard Overview](#dashboard-overview)
+- [Key Insights](#key-insights)
+- [How to Use the Dashboard](#how-to-use-the-dashboard)
+- [SQL Queries and Data Processing](#sql-queries-and-data-processing)
 - [Technical Details](#technical-details)
 - [Author](#author)
   
 ---
 
-## 📌 Introduction
+## Introduction
 The **Mental Health & Social Media Dashboard** analyzes engagement trends, sentiment distribution, and regional variations in discussions about mental health on social media platforms from **2018 to 2024**.  
 
 The dashboard helps identify:
@@ -23,7 +23,7 @@ The dashboard helps identify:
 
 ---
 
-## 📂 Dataset Overview
+## Dataset Overview
 The dataset consists of social media posts related to mental health across multiple platforms. It includes the following attributes:
 
 - **Post Metadata:** `post_id`, `platform`, `post_type`, `topic`, `hashtag`, `word_count`, `year`, `region`
@@ -34,10 +34,10 @@ All data was **cleaned and processed in Google BigQuery**, ensuring no missing v
 
 ---
 
-## 📊 Dashboard Overview
+## Dashboard Overview
 The **Tableau Dashboard** provides interactive visualizations that highlight key engagement and sentiment trends.  
 
-### 🔹 Charts & Features:
+### Charts & Features:
 1. **Top Platforms by Engagement (Bar Chart)**  
    - Displays platforms ranked by **average engagement**.
 
@@ -65,7 +65,7 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 
 ---
 
-## 🏆 Key Insights
+## Key Insights
 - 📈 **Engagement is highest on TikTok and YouTube**, with both platforms driving the most interactions.  
 - 💬 **Post types significantly impact engagement**—short-form videos perform better across platforms.  
 - 🌎 **Engagement varies by region**, with **North America and Europe** leading discussions.  
@@ -74,7 +74,7 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 
 ---
 
-## 🎯 How to Use the Dashboard
+## How to Use the Dashboard
 1. **Select Filters:**  
    - Choose a **year, platform, or region** to refine analysis.
    - Click the **Show Filters** button to enable filtering.
