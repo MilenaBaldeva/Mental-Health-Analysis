@@ -120,4 +120,4 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 ---
 
 📢 **Last Updated:** February 2025  
-🔗 **Dashboard Link:** (https://public.tableau.com/views/MentalHealthEngagementonSocialMediaPlatforms2018-2014/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)  
+🔗 [Dashboard Link] (https://public.tableau.com/views/MentalHealthEngagementonSocialMediaPlatforms2018-2014/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)  
