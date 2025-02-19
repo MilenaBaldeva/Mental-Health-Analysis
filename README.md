@@ -2,6 +2,7 @@
 
 ## 📖 Table of Contents
 - [📌 Introduction](#-introduction)
+- [📌 Introduction](#-introduction)
 - [📂 Dataset Overview](#-dataset-overview)
 - [📊 Dashboard Overview](#-dashboard-overview)
 - [🏆 Key Insights](#-key-insights)
