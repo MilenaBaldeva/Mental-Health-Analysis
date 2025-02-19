@@ -7,7 +7,7 @@
 - [🏆 Key Insights](#-key-insights)
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
 - [SQL Queries and Data Processing](#sql-queries-an-data-processing)
-- [Technical Details](#technical-details)
+- [⚙️ Technical Details](#-technical-details)
 - [Author](#author)
   
 ---
@@ -103,7 +103,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 
 ---
 
-## Technical Details
+## ⚙️ Technical Details
 - **Data Source:** [Kaggle - Mental Health & Social Media Dataset](https://www.kaggle.com/datasets/shubhaanbhandari/mental-health-and-social-media?resource=download) (Imported to Google BigQuery)
 - **Visualization Tool:** Tableau  
 - **Processing Language:** SQL  
