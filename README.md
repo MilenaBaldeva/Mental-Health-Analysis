@@ -1,7 +1,7 @@
-# 📊 Mental Health & Social Media Dashboard (2018-2024) 
+# 📊 Mental Health & Social Media Dashboard (2018-2024)
 
 ## 📖 Table of Contents
-- [Introduction](#introduction)
+- [📌 Introduction](#📌introduction)
 - [Dataset Overview](#dataset-overview)
 - [Dashboard Overview](#dashboard-overview)
 - [Key Insights](#key-insights)
@@ -46,8 +46,8 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
    - Shows **top mental health topics** by **average engagement**.  
    - Color-coded by **platform contribution**.
 
-3. **Engagement by Post Type (Bar Chart)**  
-   - Compares **likes, shares, and comments** by **post type**.  
+3. **Engagement by Post Type (Grouped Bar Chart)**  
+   - Compares **likes, shares, and comments** to avegare engagement by **post type**.  
    - Sorted by **average engagement**.
 
 4. **Sentiment Impact on Engagement (Line Chart)**  
@@ -67,11 +67,11 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 ---
 
 ## 🏆 Key Insights
-- 📈 **Engagement is highest on Twitter and Instagram**, while Reddit has the most sentiment diversity.
-- 💬 **Post types significantly impact engagement**—some formats perform better across platforms.
-- 🌎 **Engagement varies by region**, with **North America and Europe** leading discussions.
-- 🔍 **Hashtags such as #MentalHealthAwareness and #SelfCare** consistently drive high engagement.
-- 😃 **Positive sentiment has increased post-2022**, suggesting greater support and awareness.
+- 📈 **Engagement is highest on TikTok and YouTube**, with both platforms driving the most interactions.  
+- 💬 **Post types significantly impact engagement**—short-form videos perform better across platforms.  
+- 🌎 **Engagement varies by region**, with **North America and Europe** leading discussions.  
+- 🔍 **Hashtags such as #MentalHealthAwareness and #DepressionSupport** consistently drive high engagement.  
+- 😃 **Positive sentiment has increased post-2022**, suggesting greater support and awareness.  
 
 ---
 
@@ -93,20 +93,40 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 ---
 
 ## 🛠️ SQL Queries & Data Processing
+The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and insightful analysis. Key data transformations included:
+- Checking for missing values and handling inconsistencies.
+- Calculating **average engagement per platform and post type**.
+- Analyzing **sentiment trends over time**.
+- Identifying **top-performing hashtags**.
+- Mapping **regional engagement differences**.
 
-The dataset was preprocessed using **BigQuery SQL**. Below are key queries used:
+To view the complete SQL queries used, refer to the file:  
+📂 **[`https://github.com/MilenaBaldeva/Mental_Health_Analysis/edit/main/README.md#:~:text=2018%2D2014.twbx-,Mental_Health_Analysis,-.sql`](#)**
 
-### ✅ Checking for Missing Values
-```sql
-SELECT 
-  COUNT(*) AS total_rows,
-  SUM(CASE WHEN post_id IS NULL THEN 1 ELSE 0 END) AS post_id_missing,
-  SUM(CASE WHEN platform IS NULL THEN 1 ELSE 0 END) AS platform_missing,
-  SUM(CASE WHEN topic IS NULL THEN 1 ELSE 0 END) AS topic_missing,
-  SUM(CASE WHEN sentiment IS NULL THEN 1 ELSE 0 END) AS sentiment_missing,
-  SUM(CASE WHEN region IS NULL THEN 1 ELSE 0 END) AS region_missing,
-  SUM(CASE WHEN post_type IS NULL THEN 1 ELSE 0 END) AS post_type_missing,
-  SUM(CASE WHEN hashtag IS NULL THEN 1 ELSE 0 END) AS hashtag_missing,
-  SUM(CASE WHEN year IS NULL THEN 1 ELSE 0 END) AS year_missing,
-  SUM(CASE WHEN engagement_score IS NULL THEN 1 ELSE 0 END) AS engagement_score_missing
-FROM `glass-proxy-442917-h9.mydata.mhsm`;
+---
+
+## 🚀 Future Improvements
+- 🔹 **Real-Time Data Updates:** Integrate API for continuous insights.  
+- 🔹 **Deeper NLP Analysis:** Use **AI models** to detect mental health concerns.  
+- 🔹 **User Engagement Trends:** Track how **specific hashtags impact engagement over time**.  
+- 🔹 **Compare Platforms:** Measure **platform effectiveness** in spreading awareness.  
+
+---
+
+## ⚙️ Technical Details
+- **Data Source:** Google BigQuery  
+- **Visualization Tool:** Tableau  
+- **Processing Language:** SQL  
+- **Interactivity:** Dynamic filters, drill-downs, tooltips, and toggle buttons  
+
+---
+
+## ✍️ Author
+**Milena Baldeva**  
+📍 Easton, PA, USA  
+🔗 [LinkedIn](https://www.linkedin.com/in/milena-baldeva-051b01100/) | 📧 [Email](milena.baldeva@gmail.com)  
+
+---
+
+📢 **Last Updated:** February 2025  
+🔗 **Dashboard Link:** _[https://public.tableau.com/views/MentalHealthEngagementonSocialMediaPlatforms2018-2014/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link]_  
