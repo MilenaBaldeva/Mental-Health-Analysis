@@ -6,7 +6,7 @@
 - [📊 Dashboard Overview](#-dashboard-overview)
 - [🏆 Key Insights](#-key-insights)
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
-- [🛠️ SQL Queries & Data Processing](#-sql-queries--data-preprocessing)
+- [🛠️ SQL Queries and Data Processing](#-sql-queries-and-data-preprocessing)
 - [⚙️ Technical Details](#-technical-details)
 - [✍️ Author](#-author)
 - 
@@ -100,7 +100,7 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 
 ---
 
-## 🛠️ SQL Queries & Data Processing
+## 🛠️ SQL Queries and Data Processing
 The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and insightful analysis. Key data transformations included:
 - Checking for missing values and handling inconsistencies.
 - Calculating **average engagement per platform and post type**.
