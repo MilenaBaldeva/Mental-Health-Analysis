@@ -6,9 +6,9 @@
 - [📊 Dashboard Overview](#-dashboard-overview)
 - [🏆 Key Insights](#-key-insights)
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
-- [🛠️ SQL Queries and Data Processing](#-sql-queries-and-data-preprocessing)
-- [⚙️ Technical Details](#-technical-details)
-- [✍️ Author](#-author)
+- [SQL Queries and Data Processing](#sql-queries-and-data-preprocessing)
+- [Technical Details](#technical-details)
+- [Author](#author)
   
 ---
 
@@ -91,7 +91,7 @@ The **Tableau Dashboard** provides interactive visualizations that highlight key
 
 ---
 
-## 🛠️ SQL Queries and Data Processing
+## SQL Queries and Data Processing
 The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and insightful analysis. Key data transformations included:
 - Checking for missing values and handling inconsistencies.
 - Calculating **average engagement per platform and post type**.
@@ -103,7 +103,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 
 ---
 
-## ⚙️ Technical Details
+## Technical Details
 - **Data Source:** [Kaggle - Mental Health & Social Media Dataset](https://www.kaggle.com/datasets/shubhaanbhandari/mental-health-and-social-media?resource=download) (Imported to Google BigQuery)
 - **Visualization Tool:** Tableau  
 - **Processing Language:** SQL  
@@ -111,7 +111,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 
 ---
 
-## ✍️ Author
+## Author
 **Milena Baldeva**  
 📍 Easton, PA, USA  
 📧 [milena.baldeva@gmail.com](mailto:milena.baldeva@gmail.com)  
