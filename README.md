@@ -1,4 +1,4 @@
-# 📊 Mental Health & Social Media Dashboard (2018-2024)
+# 📊 Mental Health & Social Media Dashboard (2018-2024) 
 
 ## 📖 Table of Contents
 - [Introduction](#introduction)
