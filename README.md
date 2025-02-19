@@ -6,99 +6,44 @@
 - [Dashboard Overview](#dashboard-overview)
 - [Key Insights](#key-insights)
 - [How to Use the Dashboard](#how-to-use-the-dashboard)
-- [Technical Details](#technical-details)
+- [SQL Queries & Data Processing](#sql-queries--data-processing)
 - [Future Improvements](#future-improvements)
+- [Technical Details](#technical-details)
+- [Author](#author)
 
 ---
 
 ## 📌 Introduction
-This **Mental Health & Social Media Dashboard** provides a data-driven analysis of engagement metrics, sentiment trends, and regional differences in discussions related to mental health on social media platforms from **2018 to 2024**. The goal is to identify how online interactions and sentiment have evolved over time and to help stakeholders better understand mental health trends in the digital space.
+The **Mental Health & Social Media Dashboard** analyzes engagement trends, sentiment distribution, and regional variations in discussions about mental health on social media platforms from **2018 to 2024**.  
+
+The dashboard helps identify:
+- How social media platforms contribute to mental health awareness.
+- The impact of different **post types**, **hashtags**, and **topics** on engagement.
+- The evolution of **sentiment trends** over time.
+- Regional differences in engagement levels.
 
 ---
 
 ## 📂 Dataset Overview
-The dataset includes:
-- **Time Range:** 2018-2024
-- **Metrics:**
-  - Engagement (likes, shares, comments)
-  - Sentiment analysis (positive, neutral, negative)
-  - Regional distribution (by country/continent)
-  - Platform insights (Twitter, Facebook, Reddit, Instagram)
-  - Hashtags and keyword frequency
-  - Mental health topics (e.g., anxiety, depression, stress, therapy)
+The dataset consists of social media posts related to mental health across multiple platforms. It includes the following attributes:
 
-The dataset was loaded into **Google BigQuery Sandbox**, where SQL queries were used to preprocess and extract insights.
+- **Post Metadata:** `post_id`, `platform`, `post_type`, `topic`, `hashtag`, `word_count`, `year`, `region`
+- **Engagement Metrics:** `likes`, `shares`, `comments`, `engagement_score`
+- **Sentiment Analysis:** `positive`, `neutral`, `negative`
+
+All data was **cleaned and processed in Google BigQuery**, ensuring no missing values.
 
 ---
 
-## 🏆 Dashboard Overview
-The **Tableau Dashboard** consists of multiple interactive visualizations:
+## 📊 Dashboard Overview
+The **Tableau Dashboard** provides interactive visualizations that highlight key engagement and sentiment trends.  
 
-1. **Engagement Trends Over Time**  
-   - Displays overall engagement (likes, shares, comments) across different years.
-   - Includes a **year filter** to analyze specific periods.
+### 🔹 Charts & Features:
+1. **Top Platforms by Engagement (Bar Chart)**  
+   - Displays platforms ranked by **average engagement**.
 
-2. **Sentiment Analysis Breakdown**  
-   - Shows the proportion of positive, neutral, and negative sentiment per year.
-   - Allows filtering by platform to observe sentiment variation.
+2. **Topic Engagement by Platform Contribution (Stacked Bar Chart)**  
+   - Shows **top mental health topics** by **average engagement**.  
+   - Color-coded by **platform contribution**.
 
-3. **Top Mental Health Topics**  
-   - Highlights the most frequently discussed mental health topics.
-   - Includes a **search filter** to focus on specific terms.
-
-4. **Regional Analysis**  
-   - Interactive **map visualization** showing engagement levels per country.
-   - Displays **top 5 most engaged regions**.
-
-5. **Platform-Specific Performance**  
-   - Breakdown of engagement per social media platform.
-   - Helps identify where discussions are most active.
-
----
-
-## 📊 Key Insights
-- 📈 **Mental health discussions have significantly increased** since 2020, peaking in 2021 due to the pandemic.
-- 💬 **Negative sentiment decreased from 2022 onward**, suggesting growing awareness and supportive conversations.
-- 🌎 **North America and Europe** dominate engagement, but **Asia has shown rising trends** in recent years.
-- 🔍 **Instagram and Twitter drive the most engagement**, but Reddit has the highest sentiment diversity.
-- 🏷️ **Popular hashtags include #MentalHealthAwareness, #SelfCare, and #EndTheStigma.**
-
----
-
-## 🎯 How to Use the Dashboard
-1. **Adjust Filters:**  
-   - Use the **year filter** to focus on specific timeframes.
-   - Select a **platform** to compare social media trends.
-   - Choose a **sentiment type** to analyze specific patterns.
-
-2. **Hover for Details:**  
-   - Charts and maps provide tooltips with deeper insights.
-
-3. **Click for Drill-Downs:**  
-   - Clicking on a country in the **map** reveals engagement trends by year.
-   - Selecting a sentiment type updates all related charts.
-
-4. **Export & Share:**  
-   - Download insights in PDF or CSV format for further analysis.
-
----
-
-## ⚙️ Technical Details
-- **Data Source:** Google BigQuery (SQL processing)
-- **Visualization Tool:** Tableau
-- **Data Cleaning:** SQL queries (duplicates removed, sentiment normalized)
-- **Interactivity:** Filters, drill-downs, tooltips, map-based selections
-
----
-
-## 🚀 Future Improvements
-- 🔹 **Live Data Updates:** Integrate API connections for real-time insights.
-- 🔹 **Deeper NLP Analysis:** Use AI models to classify mental health discussions in more detail.
-- 🔹 **Comparative Analysis:** Compare social media discussions with real-world mental health reports.
-
----
-
-📢 **Developed by:** Milena Baldeva  
-📅 **Last Updated:** February 2025  
-🔗 **Dashboard Link:** _[Insert Tableau Public link if available]_
-
+3. **Engagement by Post Type (Ba
