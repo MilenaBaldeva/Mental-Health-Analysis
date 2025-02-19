@@ -99,8 +99,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 - Identifying **top-performing hashtags**.
 - Mapping **regional engagement differences**.
 
-To view the complete SQL queries used, refer to the file:  
-📂 **[`https://github.com/MilenaBaldeva/Mental_Health_Analysis/edit/main/README.md#:~:text=2018%2D2014.twbx-,Mental_Health_Analysis,-.sql`](#)**
+📂 To view the complete SQL queries used, refer to the [Mental_Health_Analysis.sql] file.  
 
 ---
 
