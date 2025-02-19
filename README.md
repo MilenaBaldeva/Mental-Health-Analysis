@@ -104,7 +104,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 ---
 
 ## ⚙️ Technical Details
-- **Data Source:** Google BigQuery  
+- **Data Source:** [Kaggle - Mental Health & Social Media Dataset](https://www.kaggle.com/datasets/shubhaanbhandari/mental-health-and-social-media?resource=download) (Imported to Google BigQuery)
 - **Visualization Tool:** Tableau  
 - **Processing Language:** SQL  
 - **Interactivity:** Dynamic filters, drill-downs, tooltips, and toggle buttons  
