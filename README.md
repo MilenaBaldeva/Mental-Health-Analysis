@@ -8,7 +8,7 @@
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
 - [SQL Queries and Data Processing](#sql-queries-an-data-processing)
 - [⚙️ Technical Details](#technical-details)
-- [Author](#author)
+- [✍️ Author](#-author)
   
 ---
 
@@ -111,7 +111,7 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 
 ---
 
-## Author
+## ✍️ Author
 **Milena Baldeva**  
 📍 Easton, PA, USA  
 📧 [milena.baldeva@gmail.com](mailto:milena.baldeva@gmail.com)  
