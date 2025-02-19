@@ -6,7 +6,7 @@
 - [📊 Dashboard Overview](#-dashboard-overview)
 - [🏆 Key Insights](#-key-insights)
 - [🎯 How to Use the Dashboard](#-how-to-use-the-dashboard)
-- [🛠️ SQL Queries & Data Processing](#-sql-queries--data-processing)
+- [🛠️ SQL Queries & Data Processing](#-sql-queries-data-processing)
 - [⚙️ Technical Details](#-technical-details)
 - [✍️ Author](#-author)
 
@@ -120,4 +120,4 @@ The dataset was preprocessed using **BigQuery SQL**, ensuring data quality and i
 ---
 
 📢 **Last Updated:** February 2025  
-🔗 **Dashboard Link:** _[https://public.tableau.com/views/MentalHealthEngagementonSocialMediaPlatforms2018-2014/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link]_  
+🔗 **Dashboard Link:** (https://public.tableau.com/views/MentalHealthEngagementonSocialMediaPlatforms2018-2014/Dashboard1?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)  
